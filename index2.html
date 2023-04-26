@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-rows: 200px 200px 200px;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px dashed #3300ff;
+        }
+        .post-1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border: 1px dashed #3300ff;
+            
+        }
+        .post-2{
+            grid-row-start: 1;
+            grid-column-start: 3;
+            border: 1px dashed #3300ff;       
+        }
+        .post-3{
+            grid-row-start: 2;
+            grid-column-start: 3;
+            border: 1px dashed #3300ff;
+           
+        }
+        .post-4{
+            grid-row-start: 3;
+            grid-column-start: 3;
+            border: 1px dashed #3300ff;
+            
+        }
+        .post-5{
+            grid-row-start: 3;
+            grid-column-start: 2;
+            border: 1px dashed #3300ff;
+        }
+        .post-6{
+            grid-row-start: 3;
+            grid-column-start: 1;
+            border: 1px dashed #3300ff;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="post-1" style="display: flex; align-items: center; justify-content: center;">post-1</div>
+        <div class="post-2" style="display: flex; align-items: center; justify-content: center;">post-2</div>
+        <div class="post-3" style="display: flex; align-items: center; justify-content: center;">post-3</div>
+        <div class="post-4" style="display: flex; align-items: center; justify-content: center;">post-4</div>
+        <div class="post-5" style="display: flex; align-items: center; justify-content: center;">post-5</div>
+        <div class="post-6" style="display: flex; align-items: center; justify-content: center;">post-6</div>
+    </div>
+</body>
+</html>
